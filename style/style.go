@@ -1,0 +1,7 @@
+package style
+
+
+const (
+	STYLE_BUTTON_ACTION_HORIZONTAL = "1";
+	STYLE_BUTTION_ACTION_VERTICAL = "0";
+)
