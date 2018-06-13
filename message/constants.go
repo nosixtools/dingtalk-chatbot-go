@@ -6,6 +6,4 @@ const (
 	MESSAGE_TYPE_FEEDCART   = "feedCard"
 	MESSAGE_TYPE_ACTIONCART = "actionCard"
 	MESSAGE_TYPE_MARKDOWN   = "markdown"
-
-
 )

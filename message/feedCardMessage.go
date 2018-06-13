@@ -11,20 +11,26 @@ type links struct {
 }
 
 type feedCardMessage struct {
-	MsgType  string    `json:"msgtype"`
+	MsgType  string `json:"msgtype"`
 	FeedCard *links `json:"feedCard"`
 }
 
+// get instance of FeedCardMessage
 func GetNewFeedCardMessage(feeds *list.List) *feedCardMessage {
-	links := &links{}
-	for p := feeds.Front(); p != nil; p = p.Next() {
-		links.Links = append(links.Links, p.Value.(Link))
+	if nil == feeds || feeds.Len() == 0 {
+		return nil
 	}
-	fmt.Println(links)
+	links := &links{}
+	if nil != feeds && feeds.Len() > 0 {
+		for p := feeds.Front(); p != nil; p = p.Next() {
+			links.Links = append(links.Links, p.Value.(Link))
+		}
+	}
 	fm := &feedCardMessage{MsgType: MESSAGE_TYPE_FEEDCART, FeedCard: links}
 	return fm
 }
 
+// ToJsonString
 func (fm *feedCardMessage) ToJsonString() string {
 	content, err := json.Marshal(fm)
 	if err != nil {

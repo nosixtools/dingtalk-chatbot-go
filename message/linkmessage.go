@@ -17,6 +17,7 @@ type linkMessage struct {
 	Link    *Link  `json:"link"`
 }
 
+// get instance of LinkMessage
 func GetNewLinkMessage(title,content,picUrl,messageUrl string) (*linkMessage) {
 	if content == "" || messageUrl == "" {
 		return nil
@@ -25,6 +26,8 @@ func GetNewLinkMessage(title,content,picUrl,messageUrl string) (*linkMessage) {
 	lk := &linkMessage{MsgType:MESSAGE_TYPE_LINK, Link:link}
 	return lk
 }
+
+// ToJsonString
 func (lm *linkMessage) ToJsonString() string  {
 	content, err := json.Marshal(lm)
 	if err != nil {

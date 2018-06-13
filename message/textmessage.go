@@ -16,16 +16,25 @@ type text struct {
 	Content string `json:"content"`
 }
 
+// get instance of TextMessage
 func GetNewTextMessage(content string, mobiles *list.List, isAtAll bool) *textMessage {
-	at := &at{IsAtAll: isAtAll}
-	for p := mobiles.Front(); p != nil; p = p.Next() {
-		at.AtMobiles = append(at.AtMobiles, p.Value.(string))
+	if content == "" {
+		return nil
 	}
+
 	text := &text{Content: content}
+	at := &at{IsAtAll: isAtAll}
+	if nil != mobiles && mobiles.Len() > 0 {
+		for p := mobiles.Front(); p != nil; p = p.Next() {
+			at.AtMobiles = append(at.AtMobiles, p.Value.(string))
+		}
+	}
+
 	tm := textMessage{MsgType: MESSAGE_TYPE_TEXT, Text: *text, At: at}
 	return &tm
 }
 
+// ToJsonString
 func (tm *textMessage) ToJsonString() string {
 	content, err := json.Marshal(tm)
 	if err != nil {

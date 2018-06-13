@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="353e17c8-b51c-46ca-b8cc-720978f70596" name="Default" comment="" />
+    <list default="true" id="353e17c8-b51c-46ca-b8cc-720978f70596" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/dingtalkclient/dingtalkchatbotclient_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dingtalkclient/DingtalkChatbotClient.go" beforeDir="false" afterPath="$PROJECT_DIR$/dingtalkclient/dingtalkchatbotclient.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/actionCardMessage.go" beforeDir="false" afterPath="$PROJECT_DIR$/message/actionCardMessage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/message/constants.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/feedCardMessage.go" beforeDir="false" afterPath="$PROJECT_DIR$/message/feedCardMessage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/linkmessage.go" beforeDir="false" afterPath="$PROJECT_DIR$/message/linkmessage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/markdownmessage.go" beforeDir="false" afterPath="$PROJECT_DIR$/message/markdownmessage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/message/textmessage.go" beforeDir="false" afterPath="$PROJECT_DIR$/message/textmessage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.go" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,13 +21,85 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/dingtalk_chatbot_go$TestSend_in_dingtalk_chatbot_go_dingtalkclient.out" NAME="TestSend in dingtalk-chatbot-go/dingtalkclient Coverage Results" MODIFIED="1528850646604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="linkmessage.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/message/linkmessage.go">
+      <file leaf-file-name="sendresult.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/result/sendresult.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+            <state relative-caret-position="60">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dingtalkchatbotclient_test.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dingtalkclient/dingtalkchatbotclient_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#24#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dingtalkchatbotclient.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dingtalkclient/dingtalkchatbotclient.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+              <folding>
+                <element signature="e#24#100#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="time.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/time/time.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="619" column="5" selection-start-line="619" selection-start-column="5" selection-end-line="619" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="transport.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/net/http/transport.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/net/http/client.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="129">
+              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="testing.go" pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/testing/testing.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="576" column="17" selection-start-line="576" selection-start-column="17" selection-end-line="576" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="actionCardMessage.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/message/actionCardMessage.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
               <folding>
                 <element signature="e#17#51#0" expanded="true" />
               </folding>
@@ -23,13 +107,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test.go">
+      <file leaf-file-name="feedCardMessage.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/message/feedCardMessage.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+            <state relative-caret-position="259">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
               <folding>
-                <element signature="e#14#100#0" expanded="true" />
+                <element signature="e#17#69#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -38,80 +122,11 @@
       <file leaf-file-name="markdownmessage.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/message/markdownmessage.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="35" column="13" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="35" selection-end-column="13" />
-              <folding>
-                <element signature="e#17#69#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="actionCardMessage.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/message/actionCardMessage.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-              <folding>
-                <element signature="e#17#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="constants.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/message/constants.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sendresult.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result/sendresult.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style/style.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feedCardMessage.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/message/feedCardMessage.go">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
-              <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+              <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
               <folding>
                 <element signature="e#17#69#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="textmessage.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/message/textmessage.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="22" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/message/message.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -131,24 +146,29 @@
     </findStrings>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/message/constants.go" />
         <option value="$PROJECT_DIR$/message/message.go" />
         <option value="$PROJECT_DIR$/message/reponse.go" />
         <option value="$PROJECT_DIR$/sendresult.go" />
         <option value="$PROJECT_DIR$/DingtalkChatbotClient.go" />
         <option value="$PROJECT_DIR$/client/DingtalkChatbotClient.go" />
-        <option value="$PROJECT_DIR$/message/textmessage.go" />
         <option value="$PROJECT_DIR$/dingtalkclient/DingtalkChatbotClient.go" />
         <option value="$PROJECT_DIR$/result/sendresult.go" />
-        <option value="$PROJECT_DIR$/message/markdownmessage.go" />
-        <option value="$PROJECT_DIR$/message/actionCardMessage.go" />
-        <option value="$PROJECT_DIR$/style/style.go" />
-        <option value="$PROJECT_DIR$/message/feedCardMessage.go" />
-        <option value="$PROJECT_DIR$/message/linkmessage.go" />
         <option value="$PROJECT_DIR$/test.go" />
+        <option value="$PROJECT_DIR$/message/actionCardMessage.go" />
+        <option value="$PROJECT_DIR$/message/linkmessage.go" />
+        <option value="$PROJECT_DIR$/message/textmessage.go" />
+        <option value="$PROJECT_DIR$/message/constants.go" />
+        <option value="$PROJECT_DIR$/style/style.go" />
+        <option value="$PROJECT_DIR$/message/markdownmessage.go" />
+        <option value="$PROJECT_DIR$/message/feedCardMessage.go" />
+        <option value="$PROJECT_DIR$/dingtalkclient/dingtalkchatbotclient_test.go" />
+        <option value="$PROJECT_DIR$/dingtalkclient/dingtalkchatbotclient.go" />
       </list>
     </option>
   </component>
@@ -162,11 +182,12 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
+    <option name="x" value="-5" />
     <option name="y" value="39" />
     <option name="width" value="1440" />
     <option name="height" value="828" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -182,7 +203,13 @@
             </path>
             <path>
               <item name="dingtalk-chatbot-go" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="dingtalk-chatbot-go" type="462c0819:PsiDirectoryNode" />
+              <item name="dingtalkclient" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="dingtalk-chatbot-go" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dingtalk-chatbot-go" type="462c0819:PsiDirectoryNode" />
+              <item name="message" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -197,6 +224,9 @@
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dingtalkclient" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client" />
       <recent name="$PROJECT_DIR$/result" />
@@ -215,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Test.TestSend in dingtalk-chatbot-go/dingtalkclient">
     <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="dingtalk-chatbot-go" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -225,26 +255,57 @@
       <package value="dingtalk-chatbot-go" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="TestSend in dingtalk-chatbot-go/dingtalkclient" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="dingtalk-chatbot-go" />
+      <working_directory value="$PROJECT_DIR$/dingtalkclient" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="dingtalk-chatbot-go/dingtalkclient" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestSend$" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build test.go" />
+      <item itemvalue="Go Test.TestSend in dingtalk-chatbot-go/dingtalkclient" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestSend in dingtalk-chatbot-go/dingtalkclient" />
         <item itemvalue="Go Build.go build test.go" />
       </list>
     </recent_temporary>
   </component>
+  <component name="TestHistory">
+    <history-entry file="TestSend_in_dingtalk-chatbot-go_dingtalkclient - 2018.06.13 at 08h 38m 38s.xml">
+      <configuration name="TestSend in dingtalk-chatbot-go/dingtalkclient" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSend_in_dingtalk-chatbot-go_dingtalkclient - 2018.06.13 at 08h 44m 07s.xml">
+      <configuration name="TestSend in dingtalk-chatbot-go/dingtalkclient" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSend_in_dingtalk-chatbot-go_dingtalkclient - 2018.06.13 at 09h 04m 59s.xml">
+      <configuration name="TestSend in dingtalk-chatbot-go/dingtalkclient" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestSend_in_dingtalk-chatbot-go_dingtalkclient - 2018.06.13 at 09h 07m 43s.xml">
+      <configuration name="TestSend in dingtalk-chatbot-go/dingtalkclient" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="39" width="1440" height="828" extended-state="0" />
+    <frame x="-5" y="39" width="1440" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539342" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3855932" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.3297568" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32909605" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2539342" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33050847" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32909605" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -276,13 +337,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/local/go/src/net/http/client.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="720" column="5" selection-start-line="720" selection-start-column="5" selection-end-line="720" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../github.com/bitly/go-simplejson/simplejson.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -290,94 +344,132 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dingtalkclient/DingtalkChatbotClient.go">
+    <entry file="file://$PROJECT_DIR$/message/linkmessage.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="283">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+          <folding>
+            <element signature="e#17#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/message.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/message/textmessage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/message/constants.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="40" lean-forward="true" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message/markdownmessage.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="35" selection-end-column="13" />
-          <folding>
-            <element signature="e#17#69#0" expanded="true" />
-          </folding>
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/style/style.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+        <state relative-caret-position="15">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/message/message.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message/textmessage.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result/sendresult.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message/feedCardMessage.go">
+    <entry file="file://$PROJECT_DIR$/message/markdownmessage.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
-          <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
+          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
           <folding>
             <element signature="e#17#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/message/linkmessage.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
-          <folding>
-            <element signature="e#17#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/message/actionCardMessage.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="251">
+          <caret line="27" column="15" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
           <folding>
             <element signature="e#17#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/message/feedCardMessage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="e#17#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="39" column="4" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="4" />
+        <state relative-caret-position="60">
+          <caret line="9" column="126" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="126" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/result/sendresult.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="576" column="17" selection-start-line="576" selection-start-column="17" selection-end-line="576" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/transport.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="84" column="5" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/time/time.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="619" column="5" selection-start-line="619" selection-start-column="5" selection-end-line="619" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/net/http/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dingtalkclient/dingtalkchatbotclient.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#14#100#0" expanded="true" />
+            <element signature="e#24#100#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dingtalkclient/dingtalkchatbotclient_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#24#100#0" expanded="true" />
           </folding>
         </state>
       </provider>

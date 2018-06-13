@@ -17,16 +17,23 @@ type markdownMessage struct {
 	At       *at       `json:"at"`
 }
 
-func GetNewMarkdownMessge(title, content string, mobiles *list.List, isAtAll bool) *markdownMessage {
-
+// get instance of MarkdownMessage
+func GetNewMarkdownMessage(title, content string, mobiles *list.List, isAtAll bool) *markdownMessage {
+	if content == "" || title == "" {
+		return nil
+	}
 	markdown := &markdown{Title: title, Text: content}
+
 	at := &at{IsAtAll: isAtAll}
-	for p := mobiles.Front(); p != nil; p = p.Next() {
-		at.AtMobiles = append(at.AtMobiles, p.Value.(string))
+	if nil != mobiles && mobiles.Len() > 0 {
+		for p := mobiles.Front(); p != nil; p = p.Next() {
+			at.AtMobiles = append(at.AtMobiles, p.Value.(string))
+		}
 	}
 	return &markdownMessage{MsgType: MESSAGE_TYPE_MARKDOWN, Markdown: markdown, At: at}
 }
 
+// ToJsonString
 func (mm *markdownMessage) ToJsonString() string {
 	content, err := json.Marshal(mm)
 	if err != nil {

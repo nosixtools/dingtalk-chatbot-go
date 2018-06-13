@@ -19,11 +19,13 @@ type actionCardMessage struct {
 	ActionCard *actionCard `json:"actionCard"`
 }
 
+// get instance of ActionCardMessage
 func GetNewActionCardMessage(title, content, hideAvatar, btnOrientation, singleTitle, singleUrl string) *actionCardMessage {
 	ac := &actionCard{Title: title, Text: content, HideAvatar: hideAvatar, BtnOrientation: btnOrientation, SingleTitle: singleTitle, SingleURL: singleUrl}
 	return &actionCardMessage{MsgType: MESSAGE_TYPE_ACTIONCART, ActionCard: ac}
 }
 
+// ToJsonString
 func (am *actionCardMessage) ToJsonString() string {
 	content, err := json.Marshal(am)
 	if err != nil {
