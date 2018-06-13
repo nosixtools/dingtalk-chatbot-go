@@ -21,6 +21,9 @@ type actionCardMessage struct {
 
 // get instance of ActionCardMessage
 func GetNewActionCardMessage(title, content, hideAvatar, btnOrientation, singleTitle, singleUrl string) *actionCardMessage {
+	if title == "" || content == "" {
+		return nil
+	}
 	ac := &actionCard{Title: title, Text: content, HideAvatar: hideAvatar, BtnOrientation: btnOrientation, SingleTitle: singleTitle, SingleURL: singleUrl}
 	return &actionCardMessage{MsgType: MESSAGE_TYPE_ACTIONCART, ActionCard: ac}
 }
