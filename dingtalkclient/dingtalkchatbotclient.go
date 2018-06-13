@@ -28,6 +28,7 @@ func GetNewSendClient(connectionTimeout, requestTimeout time.Duration) *sendClie
 	if requestTimeout <= 0 {
 		requestTimeout = time.Second * 3
 	}
+
 	sc := &sendConfig{ConnectionTimeout:connectionTimeout, RequestTimeout:requestTimeout}
 	sendClient := &sendClient{SendConfig:sc}
 	return sendClient
