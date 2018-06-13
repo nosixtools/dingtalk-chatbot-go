@@ -1,4 +1,4 @@
-package dingtalkclient
+package dingtalkchatbotgo
 
 import (
 	"testing"

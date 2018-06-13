@@ -1,7 +1,7 @@
-package dingtalkclient
+package dingtalkchatbotgo
 
 import (
-	"dingtalk-chatbot-go/result"
+	"github.com/nosixtools/dingtalk-chatbot-go/result"
 	"io/ioutil"
 	"net/http"
 	"strings"
