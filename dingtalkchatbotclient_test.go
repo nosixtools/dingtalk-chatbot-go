@@ -3,7 +3,7 @@ package dingtalkchatbotgo
 import (
 	"testing"
 	"container/list"
-	"dingtalk-chatbot-go/message"
+	"github.com/nosixtools/dingtalk-chatbot-go/message"
 	"time"
 )
 
